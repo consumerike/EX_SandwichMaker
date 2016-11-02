@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Good, Really Really Good Sandwiches</title>
+</head>
+<body id="catchall">
+	<label for="Sandwich">Make a Sandwich</label><br>
+	<select id="bread">
+		<optgroup label="Bread">
+			<option id="wheat" value="Wheat">Wheat</option>
+			<option value="Rye">Rye</option>
+		</optgroup>v
+	</select>
+
+	<select id="meat" multiple>
+		<optgroup label="meat">
+			<option value="Turkey">Turkey</option>
+			<option value="Chicken">Chicken</option>
+			<option value="meatless">No meat</option>
+		</optgroup>
+	</select>		
+
+	<select id="cheese" multiple>
+		<optgroup id="CheeseGroup" label="Cheese">
+			<option value="American">American</option>
+			<option value="Pepperjack">Pepperjack</option>
+			<option value="no cheese">no cheese</option>
+		</optgroup>
+	</select>	
+
+	<select id="condiments" multiple>
+		<optgroup label="condiments">
+			<option value="Mustard">Mustard</option>
+			<option value="Chipotle">Chipotle</option>
+			<option value="no condiments">no condiments</option>
+		</optgroup>
+	</select>	
+
+	<select id="veggies" multiple>
+		<optgroup label="veggies">
+			<option value="lettuce">lettuce</option>
+			<option value="olives">olive</option>
+			<option value="veggie-free">no veggies</option>
+		</optgroup>oo
+	</select>	
+
+
+	<div id="order_total"></div>
+	<p id="price_total"></p>
+
+	<script type="text/javascript" src="javascripts/sandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/bread.js"></script>
+	<script type="text/javascript" src="javascripts/meat.js"></script>
+	<script type="text/javascript" src="javascripts/cheese.js"></script>
+	<script type="text/javascript" src="javascripts/sandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/condiments.js"></script>
+	<script type="text/javascript" src="javascripts/veggies.js"></script>
+	<script type="text/javascript" src="javascripts/jarvis.js"></script>
+</body>
+</html>
